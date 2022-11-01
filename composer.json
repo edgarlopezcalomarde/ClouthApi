@@ -1,0 +1,20 @@
+{
+    "name": "edgar/api",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        },
+        "files": ["src/helpers.php"]
+    },
+    "authors": [
+        {
+            "name": "Edgar Lopez Calomarde",
+            "email": "edgarlopezcalomarde@gmail.com"
+        }
+    ],
+    "require": {
+        "bramus/router": "^1.6",
+        "larapack/dd": "^1.1",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
